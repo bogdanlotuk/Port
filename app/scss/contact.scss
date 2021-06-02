@@ -1,0 +1,37 @@
+.contact {
+    border-bottom: 2px solid #231F20;
+    &__inner {
+        margin: 170px 0 310px 60px;
+    }
+    &__left {}
+    &__left-title {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 60px;
+        margin-bottom: 50px;
+    }
+    &__left-button {}
+    &__left-button-text {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 18px;
+        color: #000;
+    }
+    &__left-button-img {}
+    &__form {
+    }
+    &__map {
+    }
+    &__map-google {
+        margin-bottom: 55px;
+    }
+    &__right-button {
+        color: #000;
+    }
+    &__right-button-text {
+        color: #000;
+    }
+    &__right-button-img {}
+
+}
+

@@ -1,0 +1,64 @@
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &__title {
+        width: 100%;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 24px;
+    }
+    &__name {
+        width: 48.5%;
+        padding: 15px;
+        border: 1px solid #000;
+        margin-bottom: 13px;
+        height: 45px;
+    }
+    &__company {
+        width: 48.5%;
+        padding: 15px;
+        border: 1px solid #000;
+        margin-bottom: 13px;
+        height: 45px;
+    }
+    &__email {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #000;
+        margin-bottom: 13px;
+        height: 45px;
+    }
+    &__phone {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #000;
+        margin-bottom: 13px;
+        height: 45px;
+    }
+    &__text {
+        width: 100%;
+        padding: 15px;
+        border: 1px solid #000;
+        margin-bottom: 65px;
+        height: 105px;
+    }
+    &__btn {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        background: #fff;
+        border: 2px solid #000;
+        padding: 15px 84px 15px 30px;
+        position: relative;
+    }
+    &__btn::after {
+        position: absolute;
+        content: "";
+        width: 52px;
+        height: 100%;
+        background: url('../img/arrow-btn.svg') no-repeat center #000;
+        right: 0;
+        top: 0;
+    }
+}
