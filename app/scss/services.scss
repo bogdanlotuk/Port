@@ -1,0 +1,33 @@
+.services {
+    &__inner {
+    }
+    &__link {
+        color: #fff;
+    }
+    &__link:hover {
+        color: #fff;
+    }
+    
+    &__link-item {
+        position: relative;
+        padding: 0;
+        padding: 50px 90px 68px;
+    }
+    &__link-top {
+    }
+    &__link-above-title {}
+    &__link-title {
+        margin-bottom: 205px;
+    }
+    &__button {}
+    &__button-text {}
+    &__button-img {}
+    &__link-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        z-index: -10;
+    }
+}

@@ -1,0 +1,30 @@
+.history {
+    background: url("../img/arrow-bg.svg") no-repeat left bottom,
+                #f2f2f2;
+
+    &__inner {
+        padding: 200px 0 220px 0;
+    }
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 60px;
+    }
+    &__center {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+    &__text {
+        text-align: justify;
+        margin-bottom: 50px;
+    }
+    &__button {}
+    &__button-text {
+        color: #000;
+    }
+    &__button-img {}
+    &__slider {}
+}

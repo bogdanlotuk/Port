@@ -1,0 +1,28 @@
+
+.news {
+    &__inner {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 120px 60px 140px;
+        border-bottom: 2px solid #231F20;
+    }
+    &__right {}
+    &__right-title {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 60px;
+        margin-bottom: 50px;
+    }
+    &__right-button {
+        color: #000;
+    }
+    &__right-button-text {color: #000;}
+    &__right-button-img {}
+    &__general {}
+    &__general-inner {}
+    &__item-link {
+        color: #000;
+    }
+    &__item-news {}
+}
+

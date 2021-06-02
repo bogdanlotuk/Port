@@ -1,0 +1,18 @@
+.management {
+    &__inner {
+        padding: 180px 0 0 60px;
+    }
+    &__left {}
+    &__left-title {
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 60px;
+        margin-bottom: 50px;
+    }
+    &__button {}
+    &__left-button-text {
+        color: #000;
+    }
+    &__button-img {}
+    &__slider {}
+}
