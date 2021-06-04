@@ -2,7 +2,7 @@
     position: relative;
     height: 100vh;
     &__video-bg{
-        position: absolute;
+        position:fixed;
         right: 0;
         bottom: 0;
         min-width: 100%;
@@ -12,7 +12,12 @@
     &__top {
         display: flex;
         align-items: center;
-        border-bottom: 2px solid #FFFFFF;
+        border-bottom: 2px solid #FFF;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 100;
     }
     &__logo {
         margin: 20px 0 23px 0;

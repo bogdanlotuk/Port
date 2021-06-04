@@ -1,0 +1,133 @@
+.footer {
+    background-color: #fff;
+    &__inner {
+        padding: 70px 60px 60px 60px;
+    }
+    &__left {}
+    &__logo {
+        margin-bottom: 22px;
+    }
+    &__logo-link {}
+    &__logo-img {}
+    &__company-name {
+        margin-bottom: 30px;
+    }
+    &__company-text {
+        margin: 0;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    &__company-text-grey {
+        margin: 0;
+        font-size: 12px;
+        line-height: 16px;
+        color: #939393;
+    }
+    &__socials {}
+    &__right {}
+    &__right-inner-top {
+        border-bottom: 1px solid #000000;
+    }
+    &__right-place {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    &__right-phone {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    &__right-time {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    &__right-email {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    &__right-inner-bottom {
+        padding-top: 30px;
+    }
+    &__about {}
+    &__about-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 15px;
+    }
+    &__about-list {
+        list-style-type: none;
+        padding: 0;
+    }
+    &__about-item {}
+    &__about-link {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 24px;
+        color: #000;
+    }
+    &__about-link:hover {
+        color: #000;
+    }
+    &__subscription {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__subscription-link {
+        width: 242px;
+        height: 45px;
+        border: 2px solid #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #000;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 42px;
+        position: relative;
+    }
+    &__subscription-link:hover {
+        color: #000;
+    }
+    &__subscription-label {
+        width: 242px;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    &__subscription-input {
+        width: 190px;
+        height: 45px;
+        display: flex;
+        border: none;
+        border: 2px solid #000;
+        border-radius: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        color: #000;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 18px;
+    }    
+    &__subscription-input:focus {
+        outline: none;
+    }  
+    &__subscription-btn {
+        width: 45px;
+        height: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;  
+        border: none;   
+        background-color: #000;  
+        border: 2px solid #000; 
+    }  
+}
+
+

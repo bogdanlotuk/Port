@@ -1,5 +1,5 @@
-
 .news {
+    background-color: #fff;
     &__inner {
         display: flex;
         flex-direction: row-reverse;
@@ -23,6 +23,8 @@
     &__item-link {
         color: #000;
     }
-    &__item-news {}
+    &__item-news {
+        height: 100%;
+    }
 }
 
