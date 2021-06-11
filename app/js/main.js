@@ -49,18 +49,20 @@ $('.history__slider').slick({
 // vid.pause();
 // });
 
-// const clip = document.querySelectorAll('.services__link-video');
-// const clipLink = document.querySelectorAll('.services__link');
-// for (let i = 0; i<clipLink.length; i++){
-// clipLink[i].addEventListener('mouseenter', 
-// function(e){
-//     clip[i].play()
-// })
-// clipLink[i].addEventListener('mouseout', 
-// function(e){
-//     clip[i].pause()
-// })
-// }
+const clip = document.querySelectorAll('.services__link-video');
+const clipLink = document.querySelectorAll('.services__link');
+// const clipFilter = document.querySelectorAll('.services__link::before')
+for (let i = 0; i < clipLink.length; i++){
+clipLink[i].addEventListener('mouseenter', 
+function(e){
+    clip[i].play();
+    // clipFilter[i].style.background = 'white';
+})
+clipLink[i].addEventListener('mouseout', 
+function(e){
+    clip[i].pause()
+})
+}
 
 // const clip = document.querySelectorAll('.header__top');
 // clip.addEventListener('scroll', function() {

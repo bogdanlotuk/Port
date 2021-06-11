@@ -1,39 +1,64 @@
 .services {
-    height: 100vh;
+    // height: 100vh;
+    // z-index: 15;
+    // background:  #fff;
     .container-fluid {
         padding: 0;
     }
     &__inner {
+        display: flex;
+        flex-wrap: wrap;
     }
     &__link {
         display: block;
         height: 50vh;
         position: relative;
         color: #fff;
+        background-color: transparent;
+        z-index: 20;
+    }
+    &__link::before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        border-radius: 0px;
+        transition-duration: 0.2s;
+        opacity: 0.6;
+        margin-bottom: 0px;
+        background-color: #414757;
+        z-index: 1;
     }
     &__link:hover {
         color: #fff;
+        &::before {
+            opacity: 0;
+        }
     }
     
     &__link-item {
-        // position: absolute;
+        // position: relative;
         padding: 0;
-        padding: 50px 90px 68px;
+        padding: 10% 20% 10%;
+        height: 50vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
     }
-    // &__link-top {
-    //     position: absolute;
-    //     z-index: 10;
-    // }
+
     &__link-above-title {
         // position: absolute;
-        z-index: 10;
-        margin-bottom: 205px;
+        // z-index: 10;
+        // margin-bottom: 205px;
     }
     &__link-title {
         // position: absolute;
-        // margin-bottom: 205px;
-        top: 70%;
-        z-index: 10;
+        // margin-bottom: 20%;
+        // top: 70%;
+        // z-index: 10;
     }
     &__button {
         // position: absolute;
@@ -44,15 +69,17 @@
     &__button-img {
         // position: absolute;
     }
+    
+    
     &__link-video {
-        overflow: hidden;
         position: absolute;
         top: 0;
         left: 0;
-        object-fit: contain;
+        object-fit: cover;
         width: 100%;
-        height: auto;
-        // z-index: -1;
+        height: 100%;
+        z-index: -1;
     }
+    
 }
 
